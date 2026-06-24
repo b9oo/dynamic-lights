@@ -3,11 +3,20 @@
     "version": "1.0.0",
     "description": "Adds cinematic and visual effects to MakeCode Arcade",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0"
     },
     "files": [
         "main.ts",
         "README.md"
     ],
-    "public": true
+    "public": true,
+    "targetVersions": {
+        "target": "4.0.14",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ]
 }
