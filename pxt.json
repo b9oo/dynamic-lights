@@ -1,0 +1,13 @@
+{
+    "name": "ultimate-effects",
+    "version": "1.0.0",
+    "description": "Adds cinematic and visual effects to MakeCode Arcade",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "public": true
+}
